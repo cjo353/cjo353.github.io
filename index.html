@@ -1,0 +1,158 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrightBlog Site</title> <!-- UPDATED -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1 id="logo">CodeClan Blog site</h1> <!-- UPDATED -->
+        <nav>
+            <ul>
+                <li>
+                    <a href="/home">Home</a>
+                </li>
+                <li>
+                    <a href="/about">About</a>
+                </li>
+                <li>
+                    <a href="/blog">Blog</a>
+                </li>
+                <li>
+                    <a href="/contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <hgroup>
+                <h2>Ten Amusing Facts About Dogs</h2>
+                <h3>Read time: 3 minutes</h3>
+            </hgroup>
+            <main>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis recusandae omnis, beatae dolore voluptas repellendus dolorem nisi. Nesciunt similique placeat quasi. Nihil obcaecati ipsum ipsam molestias porro omnis accusamus nisi!
+                </p>
+                <blockquote cite="https://www.brightnetwork.co.uk/">
+                    "Puppies." - <cite>Zsolt, 2024</cite>
+                </blockquote>
+                <p>
+                     Libero aliquid quibusdam impedit iusto, rerum saepe consequuntur doloremque magni nam illum quo consequatur ea voluptas molestiae quas vel fuga similique architecto.
+                </p>
+                <p>
+                    Aut laborum nobis culpa cum, quidem dolores quod repellendus, at maxime quasi numquam, deleniti excepturi rerum! Sequi, provident! Voluptates consequatur vero quibusdam!
+                </p>
+                <p>
+                    Unde molestiae quaerat saepe, nisi repellat est neque quia laboriosam architecto laborum animi maiores quasi ut blanditiis dolores sequi eaque reprehenderit excepturi.
+                    Minus inventore eligendi voluptatem accusantium libero facilis minima in necessitatibus corrupti praesentium doloribus quas, amet culpa voluptate nihil temporibus. Natus, provident dolorem.
+                </p>
+                <p>
+                   Quidem laborum mollitia aut reprehenderit, corrupti obcaecati fugiat voluptatibus esse ad nemo suscipit quia rem! Assumenda cumque incidunt quisquam impedit sint nesciunt?
+                </p>
+            </main>
+            <footer>
+                <hgroup>
+                    <h2>Author: A. Dog Jr.</h2>
+                    <h3>Last posted: 2024-08-01</h3>
+                    <a href="https://www.brightnetwork.co.uk/" target="_blank"></a>
+                </hgroup>
+            </footer>
+        </article>
+        <aside>
+            <section>
+                <h2>Filter by Month</h2>
+                <nav>
+                    <ul>
+                        <li><a href="/blog/month/january">January</a></li>
+                        <li><a href="/blog/month/february">February</a></li>
+                        <li><a href="/blog/month/march">March</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <section>
+                <h2>Filter by Category</h2>
+                <nav>
+                    <ul>
+                        <li><a href="/blog/puppies">Puppies!</a></li>
+                        <li><a href="/blog/dogs">Dogs!</a></li>
+                        <li><a href="/blog/morepuppies">More Puppies!</a></li>
+                        <li><a href="/blog/cats">Cats!</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </aside>
+    </main>
+    <h2>Sign up for more puppies!</h2>
+    <form action="" method="POST">
+        <label for="first_name">First Name:</label><br>
+        <input type="text" id="first_name" name="first_name" required><br>
+
+        <label for="last_name">Last Name:</label><br>
+        <input type="text" id="last_name" name="last_name" required><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="favourite_animal">Favourite animal:</label><br>
+        <label for="dog">Dog</label><br>
+        <input type="radio" id="dog" name="favourite_animal" required><br>
+        <label for="cat">Cat</label><br>
+        <input type="radio" id="cat" name="favourite_animal" required><br>
+        <label for="hedgehog">Hedgehog</label><br>
+        <input type="radio" id="hedgehog" name="favourite_animal" required><br><br>
+        
+        <label for="country">Country:</label><br>
+        <select id="country" name="country">
+            <option value="england">England</option>
+            <option value="scotland">Scotland</option>
+            <option value="wales">Wales</option>
+            <option value="northern_ireland">Northern Ireland</option>
+        </select><br><br>
+
+        <label for="bio">Biography:</label><br>
+        <textarea id="bio" name="bio" rows="4" cols="50"></textarea><br><br>
+
+        <label for="subscribe">Subscribe to newsletter</label><br>
+        <input type="checkbox" id="subscribe" name="subscribe"><br><br>
+
+        <input type="submit" id="" value="Submit">
+    </form>
+    <footer>
+        <h1>BrightBlog Site</h1>
+        <div id="footer-container">
+            <section>
+                <h2>Our Site</h2>
+                <nav>
+                    <ul>
+                        <li><a href="/home">Home</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/blog">Blog</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <section>
+                <h2>Important Files</h2>
+                <nav>
+                    <ul>
+                        <li><a href="/">Privacy Policy</a></li>
+                        <li><a href="/">Terms & Conditions</a></li>
+                        <li><a href="/">Cookie Policy</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>
